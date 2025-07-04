@@ -1,6 +1,6 @@
 # 🛒 Fawry E-Commerce System – Internship Challenge
 
-This project is a solution to the **Fawry Rise Full Stack Development Internship Challenge**.  
+This project is a solution to the **Fawry Full Stack Development Internship Challenge**.  
 It simulates a basic e-commerce system including product definitions, cart operations, checkout, and shipping handling.
 
 ---
@@ -16,12 +16,10 @@ It simulates a basic e-commerce system including product definitions, cart opera
   - Subtotal
   - Shipping fees
   - Total paid
-  - Remaining customer balance
 - Handle errors:
   - Product out of stock
   - Expired products
   - Empty cart
-  - Insufficient balance
 - Shipping service that lists all shipped items and total weight
 
 ---
@@ -31,7 +29,6 @@ It simulates a basic e-commerce system including product definitions, cart opera
 - Shipping cost is **10 EGP per 0.5kg**, rounded up
 - Expired products cannot be purchased
 - Products with zero stock will show a warning, not an exception
-- All prices are in EGP
 
 ---
 
