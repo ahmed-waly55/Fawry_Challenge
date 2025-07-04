@@ -48,3 +48,10 @@ It simulates a basic e-commerce system including product definitions, cart opera
 ![image](https://github.com/user-attachments/assets/a1db6ba7-03e0-45aa-9f34-281e582103fa)
 
 ![image](https://github.com/user-attachments/assets/368d0e7d-cd96-45b2-8d2e-cc6df2d5cb10)
+
+<h2>product Expired</h2>
+
+![image](https://github.com/user-attachments/assets/3fa8ba78-5428-4515-a491-7c7e027599c5)
+
+
+![image](https://github.com/user-attachments/assets/c91ec9fb-416f-4a9c-8c91-1a23c80e136c)
