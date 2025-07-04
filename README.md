@@ -1,4 +1,3 @@
-"# Fawry_Challenge" 
 # 🛒 Fawry E-Commerce System – Internship Challenge
 
 This project is a solution to the **Fawry Rise Full Stack Development Internship Challenge**.  
