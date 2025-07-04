@@ -18,7 +18,7 @@ public class CheckoutService {
             Product product = entry.getKey();
             int qty = entry.getValue();
 
-            if (product.isExpired()) throw new IllegalStateException(product.getName() + " is expired.");
+            if (product.isExpired()) System.out.println(product.getName() + " is expired.");
             if (qty > product.getQuantity()) throw new IllegalStateException(product.getName() + " out of stock.");
 
             subtotal += product.getPrice() * qty;
