@@ -30,7 +30,9 @@ public class CheckoutService {
             }
         }
 
-        double shipping = itemsToShip.stream().mapToDouble(Shippable::getWeight).sum() * 11;
+        double totalWeight = itemsToShip.stream().mapToDouble(Shippable::getWeight).sum();
+        double shipping = Math.ceil(totalWeight / 0.5) * 10;
+
         double total = subtotal + shipping;
 
         if (customer.getBalance() < total) throw new IllegalStateException("Insufficient balance");
